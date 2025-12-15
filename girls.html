@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Girls</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+nav {
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #e50914;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.3s;
+}
+a:hover{
+  color: orange
+}
+nav a:hover {
+  transform: scale(1.1);
+}
+.hero {
+width: 100%;
+height: 450px;
+background: url("images/gg1.png") no-repeat center center/cover;
+position: relative;
+display: flex;
+align-items: flex-end;
+padding: 40px;
+}
+.hero::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 180px;
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000 100%);
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 40px 15px;
+}
+
+
+.pic2 {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+gap: 30px;
+padding: 40px;
+max-width: 1500px;
+margin: auto;
+}
+
+.product {
+position: relative;
+}
+.product img {
+width: 100%;
+height: 330px;
+object-fit: cover;
+border-radius: 6px;
+transition: transform 0.3s;
+}
+.product:hover img {
+transform: scale(1.2);
+}
+.product p {
+margin-top: 10px;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #ddd;
+}
+</style>
+</head>
+
+<body>
+
+  <nav>
+  <a href="boys.html">Boys 👦</a>
+  <a href="couples.html">Couples 💑</a>
+</nav>
+
+<div class="hero"></div>
+
+<div class="section-title">30 All</div>
+
+<div class="pic2">
+  <div class="product"><img src="images/g2.webp"></div>
+  <div class="product"><img src="images/g3.jpg"></div>
+  <div class="product"><img src="images/g4.webp"></div>
+  <div class="product"><img src="images/g5.webp"></div>
+  <div class="product"><img src="images/g6.jpg"></div>
+  <div class="product"><img src="images/g7.jpg"></div>
+  <div class="product"><img src="images/g9.jpg"></div>
+  <div class="product"><img src="images/g10.jpg"></div>
+  <div class="product"><img src="images/g8.jpg"></div>
+  <div class="product"><img src="images/g11.jpg"></div>
+  <div class="product"><img src="images/g12.jpg"></div>
+  <div class="product"><img src="images/g13.jpg"></div>
+  <div class="product"><img src="images/g14.jpg"></div>
+  <div class="product"><img src="images/g15.jpg"></div>
+  <div class="product"><img src="images/g16.jpg"></div>
+  <div class="product"><img src="images/g17.jpg"></div>
+  <div class="product"><img src="images/g18.jpg"></div>
+  <div class="product"><img src="images/g19.jpg"></div>
+  <div class="product"><img src="images/g20.jpg"></div>
+  <div class="product"><img src="images/g21.jpg"></div>
+  <div class="product"><img src="images/g22.jpg"></div>
+  <div class="product"><img src="images/g23.jpg"></div>
+  <div class="product"><img src="images/g24.jpg"></div>
+  <div class="product"><img src="images/g25.jpg"></div>
+  <div class="product"><img src="images/g26.jpg"></div>
+  <div class="product"><img src="images/g27.jpg"></div>
+  <div class="product"><img src="images/g28.webp"></div>
+  <div class="product"><img src="images/g29.webp"></div>
+  <div class="product"><img src="images/g30.jpg"></div>
+  <div class="product"><img src="images/g1.png"></div>
+</div>
+
+</body>
+</html>
